@@ -1,12 +1,12 @@
-.contacts{
+.contacts {
     position: relative;
     padding-top: 200px;
     padding-bottom: 55px;
-    background-image: url(./../../img/MaskExp.svg);
+    background-image: url("../img/MaskExp.svg");
     background-size: cover;
     color: #fff;
 
-    &::before{
+    &::before {
         position: absolute;
         bottom: 0;
         left: 50%;
@@ -14,10 +14,11 @@
         display: block;
         width: 743px;
         height: 372px;
-        background-image: url(./../../img/OvalExp.svg);
+        background: url("../img/OvalExp.svg");
         background-size: initial;
     }
-    &::after{
+
+    &::after {
         position: absolute;
         bottom: -1px;
         left: 50%;
@@ -26,18 +27,21 @@
         width: 469px;
         height: 532px;
         margin-left: 79px;
-        background-image: url(./../../img/ContactUs.png);
-        background-size: initial;    
+        background: url("../img/ContactUs.png");
+        background-size: initial;
     }
 }
-.contact__info{
+
+.contact__info {
     max-width: 360px;
 }
-.contact__title{
+
+.contact__title {
     margin-bottom: 15px;
 
 }
-.contact__text{
+
+.contact__text {
     margin-bottom: 30px;
     max-width: 342px;
 }
